@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import "@fontsource-variable/league-spartan";
+import "animate.css";
 ---
 
 <!doctype html>
@@ -25,5 +26,57 @@ import "@fontsource-variable/league-spartan";
 <style is:global>
   body {
     font-family: "League Spartan Variable", sans-serif;
+  }
+
+  .photoZamponia:hover {
+    animation: pulse 1.5s infinite;
+  }
+
+  .float__words {
+    animation: float 2.5s infinite ease-in-out;
+    transition-duration: 300ms;
+  }
+
+  .float__words__inverse {
+    animation: floatInverse 2.5s infinite ease-in-out;
+    transition-duration: 300ms;
+  }
+
+  .float__words:hover {
+    scale: 1.2;
+    cursor: pointer;
+    color: #fffaf3;
+    transition-timing-function: ease-out;
+  }
+
+  .float__words__inverse:hover {
+    scale: 1.2;
+    cursor: pointer;
+    color: #fffaf3;
+    transition-timing-function: ease-out;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-35px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes floatInverse {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(35px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 </style>
