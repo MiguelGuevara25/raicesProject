@@ -49,13 +49,13 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-# Paleta de colores
+# 🎨 Paleta de colores
 
-| Color    | Descripción   |
-| :------- | :------------ |
-| #647115  | Verde claro   |
-| #FFFAF3  | Blanco        |
-| #870002  | Rojo          |
-| #6A2B11  | Marrón claro  |
-| #45260B  | Marron oscuro |
-| #DEC499  | Beige         |
+| Color      | Descripción   |
+| :--------- | :------------ |
+| `#647115`  | Verde claro   |
+| `#FFFAF3`  | Blanco        |
+| `#870002`  | Rojo          |
+| `#6A2B11`  | Marrón claro  |
+| `#45260B`  | Marron oscuro |
+| `#DEC499`  | Beige         |
