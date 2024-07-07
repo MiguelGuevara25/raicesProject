@@ -1,9 +1,9 @@
 const Tabs = () => {
   return (
-    <div className="flex gap-5 justify-center [&>div]:rounded-3xl [&>div]:text-[#FFFAF3] [&>div]:basis-1/4 [&>div]:overflow-hidden [&>div>div>h3]:font-bold [&>div>div>h3]:text-6xl [&>div>div>h3]:mb-2.5 [&>div>div>p]:text-xl">
+    <div className="flex gap-5 justify-center [&>div]:rounded-3xl [&>div]:text-[#FFFAF3] [&>div]:basis-1/4 [&>div]:overflow-hidden [&>div>div>h3]:font-bold [&>div>div>h3]:text-6xl [&>div>div>h3]:mb-2.5 [&>div>div>p]:text-xl [&>div>div>p]:leading-6 [&>div>div>p]:tracking-wide">
       <div className="bg-[#870002]">
         <div>
-          <img src="raicesFusion.webp" alt="" />
+          <img src="/images/tab1.webp" alt="" />
         </div>
 
         <div className="py-6 px-10">
@@ -20,7 +20,7 @@ const Tabs = () => {
 
       <div className="bg-[#647115]">
         <div>
-          <img src="raicesFusion.webp" alt="" />
+          <img src="/images/tab2.webp" alt="" />
         </div>
 
         <div className="py-6 px-10">
@@ -37,7 +37,7 @@ const Tabs = () => {
 
       <div className="bg-[#6A2B11]">
         <div>
-          <img src="raicesFusion.webp" alt="" />
+          <img src="/images/tab3.webp" alt="" />
         </div>
 
         <div className="py-6 px-10">
