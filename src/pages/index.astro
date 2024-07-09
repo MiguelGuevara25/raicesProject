@@ -8,16 +8,19 @@ import SamplePack from "../components/SamplePack";
 import Contacto from "../components/Contacto";
 import Artistas from "../components/Artistas.astro";
 import Tabs from "../components/Tabs";
+import Prueba from "../components/Prueba";
 ---
 
 <Layout title="Raíces">
   <main>
     <div
       style="background-image: url('/video/raices.gif')"
-      class="h-screen grid place-items-center bg-center brightness-90"
+      class="h-screen grid place-items-center bg-center brightness-90 bg-no-repeat bg-cover"
     >
       <img width="100" src="logo.webp" alt="" />
     </div>
+
+    <!-- <Prueba client:load /> -->
 
     <InfoPrincipal />
     <Tabs client:load />
