@@ -24,7 +24,7 @@ const SamplePack = () => {
         <div className="relative z-0">
           <img
             width="300"
-            src="cajon.webp"
+            src="/images/cajon.webp"
             alt="Zampoña Futurista"
             className={`cursor-pointer hover:scale-[1.15] transition-transform duration-300 ${
               isScaled ? "scale-[1.15]" : ""

@@ -5,7 +5,7 @@ const Contacto = () => {
     <footer className="bg-[#647115] text-[#FFFAF3]">
       <div className="flex justify-around items-center py-20">
         <div className="text-lg max-w-xl space-y-3">
-          <h2 className="text-8xl font-extrabold">Sé parte de Raíces</h2>
+          <h2 className="text-8xl font-extrabold leading-[90px]">Sé parte de Raíces</h2>
           <p>
             Nos apasiona la música fusión peruana y estamos emocionados de
             compartir este viaje contigo. ¡Gracias por tu interés y apoyo!
@@ -20,7 +20,7 @@ const Contacto = () => {
         <div>
           <img
             width="300"
-            src="zampoñaFuturista.webp"
+            src="/images/zampoñaFuturista.webp"
             alt="Zampoña Futurista"
           />
         </div>

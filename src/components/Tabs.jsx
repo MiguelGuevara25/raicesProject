@@ -2,8 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 import { dataTabs } from "../data/data";
 
-// import "../css/style.css";
-
 const Tabs = () => {
   return (
     <div className="h-screen flex justify-center items-center">

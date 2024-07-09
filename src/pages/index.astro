@@ -1,5 +1,5 @@
 ---
-import NuestrasCapsulas from "../components/NuestrasCapsulas.astro";
+import NuestrasCapsulas from "../components/NuestrasCapsulas";
 import InfoPrincipal from "../components/InfoPrincipal.astro";
 import RespiroVisual from "../components/RespiroVisual.astro";
 import HomeSection from "../components/HomeSection.astro";
@@ -19,7 +19,7 @@ import Prueba from "../components/Prueba";
     <InfoPrincipal />
     <Tabs client:load />
     <RespiroVisual />
-    <NuestrasCapsulas />
+    <NuestrasCapsulas client:load />
     <SamplePack client:load />
     <Artistas />
   </main>
