@@ -2,8 +2,8 @@ import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
 
 const Contacto = () => {
   return (
-    <footer className="bg-[#647115] text-[#FFFAF3]">
-      <div className="flex justify-around items-center py-20">
+    <footer className="bg-[#647115] text-[#FFFAF3] z-50">
+      <div className="flex justify-around items-center py-20 z-50">
         <div className="text-lg max-w-xl space-y-3">
           <h2 className="text-8xl font-extrabold leading-[90px]">
             Sé parte de Raíces
@@ -19,10 +19,11 @@ const Contacto = () => {
           />
         </div>
 
-        <div>
+        <div className="z-50">
           <img
+            className="z-50"
             width="300"
-            src="/images/zampoñaFuturista.webp"
+            src="/images/flor.png"
             alt="Zampoña Futurista"
           />
         </div>

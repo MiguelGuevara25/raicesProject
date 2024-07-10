@@ -35,7 +35,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
       case "chabucaGranda.png":
         return {
-          name: "Chabuca Granda",
+          name: "María Isabel Granda Larco",
           img1: "/images/artists/sliders/chabucaGranda.png",
           img2: "/images/artists/biography/chabucaGranda.webp",
           bio: "María Isabel Granda Larco nació el 3 de septiembre de 1920 en Las Cotabambas Aurarias, un asentamiento minero en el distrito de Progreso, provincia de Grau, departamento de Apurímac. Su padre fue Eduardo Granda y San Bartolomé, un ingeniero de minas, y su madre Isabel Susana Larco Ferrari de Granda.",
@@ -113,7 +113,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
       case "oscarAviles.png":
         return {
-          name: "Óscar Avilés",
+          name: "Óscar Guillermo Avilés Arcos",
           img1: "/images/artists/sliders/oscarAviles.png",
           img2: "/images/artists/biography/oscarAviles.avif",
           bio: "Óscar Guillermo Avilés Arcos, fue un destacado guitarrista, cantor, compositor, arreglista y productor discográfico peruano. Reconocido como “La Primera Guitarra del Perú” por su innovadora interpretación de la guitarra criolla, Avilés nació en el Callao en la calle Zepita N.º 653, hoy en día renombrada en su honor.",
@@ -141,7 +141,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
       case "susanaBaca.png":
         return {
-          name: "Susana Baca",
+          name: "Susana Esther Baca de la Colina",
           img1: "/images/artists/sliders/susanaBaca.png",
           img2: "/images/artists/biography/susanaBaca.avif",
           bio: "Susana Esther Baca de la Colina, conocida como Susana Baca, es una cantante, compositora, investigadora de música y educadora peruana, tres veces ganadora de los Premios Grammy Latinos. Fue Ministra de Cultura del Perú y Presidenta de la Comisión Interamericana de Cultura de la OEA. Es una figura clave en el folklore latinoamericano y en la revitalización de la música afroperuana.",
@@ -157,7 +157,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
       case "tonySuccar.png":
         return {
-          name: "Susana Baca",
+          name: "Tony Succar",
           img1: "/images/artists/sliders/tonySuccar.png",
           img2: "/images/artists/biography/tonySuccar.avif",
           bio: "Tony Succar, nacido en Lima, Perú, y criado en Miami, Florida, es un destacado productor, compositor y arreglista que ha ganado dos veces el Latin Grammy. Desde muy joven, la música ha sido su pasión, influenciado por su familia de músicos.",

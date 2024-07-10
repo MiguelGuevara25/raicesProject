@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { IoCloseOutline } from "react-icons/io5";
 import ModalBiography from "./ModalBiography";
 
 const Artist = ({ artist }) => {

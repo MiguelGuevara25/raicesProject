@@ -13,16 +13,17 @@ const Tabs = () => {
         rewind={true}
         className="mySwiper text-[#FFFAF3]"
       >
-        {dataTabs.map((tab) => {
+        {dataTabs.map(({ id, bg, img, title, text }) => {
           return (
-            <SwiperSlide key={tab.id}>
-              <div style={{ backgroundColor: `${tab.bg}` }}>
+            <SwiperSlide key={id}>
+              <div style={{ backgroundColor: `${bg}` }}>
                 <div>
-                  <img src={tab.img} alt="" />
+                  <img src={img} alt={title} />
                 </div>
+
                 <div className="py-6 px-10">
-                  <h3 className="font-bold text-6xl mb-2.5">{tab.title}</h3>
-                  <p className="leading-6 tracking-wide text-xl">{tab.text}</p>
+                  <h3 className="font-bold text-6xl mb-2.5">{title}</h3>
+                  <p className="leading-6 tracking-wide text-xl">{text}</p>
                 </div>
               </div>
             </SwiperSlide>

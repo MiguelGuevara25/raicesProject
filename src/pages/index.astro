@@ -1,7 +1,7 @@
 ---
 import NuestrasCapsulas from "../components/NuestrasCapsulas";
 import InfoPrincipal from "../components/InfoPrincipal.astro";
-import RespiroVisual from "../components/RespiroVisual.astro";
+import RespiroVisual from "../components/RespiroVisual";
 import HomeSection from "../components/HomeSection.astro";
 import Artists from "../components/Artists";
 import Layout from "../layouts/Layout.astro";
@@ -9,16 +9,15 @@ import Layout from "../layouts/Layout.astro";
 import SamplePack from "../components/SamplePack";
 import Contacto from "../components/Contacto";
 import Tabs from "../components/Tabs";
-import Prueba from "../components/Prueba";
 ---
 
 <Layout title="Raíces">
+  <img class="absolute -top-12 left-28 w-[91%]" src="/images/raiz.png" alt="" />
   <main>
     <HomeSection />
-    <!-- <Prueba client:load /> -->
     <InfoPrincipal />
     <Tabs client:load />
-    <RespiroVisual />
+    <RespiroVisual client:load />
     <NuestrasCapsulas client:load />
     <SamplePack client:load />
     <Artists client:load />

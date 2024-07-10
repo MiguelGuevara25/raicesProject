@@ -34,7 +34,7 @@ const SamplePack = () => {
           <div className="absolute w-[30rem] h-56 bg-[#93a51a] top-20 -left-24 rounded-full -z-10"></div>
         </div>
 
-        <div className="text-3xl font-semibold flex flex-col justify-center items-center mt-6 gap-2">
+        <div className="text-3xl font-semibold flex flex-col justify-center items-center mt-6 gap-2 z-0">
           <p>Prueba y explora nuestro sample pack</p>
 
           <a
