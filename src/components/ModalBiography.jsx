@@ -23,7 +23,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
       case "arianGaitan.png":
         return {
           name: "Arián Gaitán",
-          img1: "/images/artists/sliders/kayfex.png",
+          img1: "/images/artists/sliders/arianGaitan.png",
           img2: "/images/artists/biography/arianGaitan.webp",
           bio: "Arian Gaitán es un versátil percusionista y  productor peruano, conocido por su habilidad para fusionar diversos géneros musicales a través del uso de la percusión y una variedad de instrumentos andinos.",
           bio2: `Heredero de la rica tradición folklórica de su padre, el reconocido músico Diosdado Gaitán Castro, Arian ha desarrollado un estilo único que combina la esencia de los sonidos tradicionales del Perú con influencias contemporáneas como el pop, el funk y el hip hop.
@@ -211,10 +211,9 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
         </div>
 
         <div className="bg-white flex gap-20 justify-center items-center py-14 text-[#45260B]">
-          <div className="bg-[#45260B] rounded-full">
+          <div className="bg-[#45260B] flex justify-center items-end rounded-full size-60 overflow-hidden">
             <img
-              className="rounded-full"
-              width="220"
+              className="h-60 object-contain object-bottom"
               src={infoArtist(artist).img1}
               alt=""
             />
