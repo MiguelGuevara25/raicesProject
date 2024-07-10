@@ -1,5 +1,4 @@
 import { IoCloseOutline } from "react-icons/io5";
-import Contacto from "./Contacto";
 import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa6";
 
 const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
@@ -185,7 +184,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
   return (
     <div
-      className={`fixed inset-0 bg-black/40 z-50 animate__animated ${
+      className={`fixed inset-0 bg-black/40 z-[1000] animate__animated ${
         isClosing ? "animate__fadeOut" : "animate__fadeIn"
       }`}
     >

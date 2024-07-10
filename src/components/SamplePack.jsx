@@ -17,11 +17,11 @@ const SamplePack = () => {
   return (
     <section className="bg-[#45260B] text-[#FFFAF3] flex justify-center items-center h-screen">
       <div className="flex flex-col items-center">
-        <h2 className="text-8xl w-3/5 text-center font-bold">
+        <h2 className="text-8xl w-3/5 text-center font-bold z-50">
           ¡Conecta con nuestras raíces!
         </h2>
 
-        <div className="relative z-0">
+        <div className="relative z-50">
           <img
             width="300"
             src="/images/cajon.webp"
@@ -34,7 +34,7 @@ const SamplePack = () => {
           <div className="absolute w-[30rem] h-56 bg-[#93a51a] top-20 -left-24 rounded-full -z-10"></div>
         </div>
 
-        <div className="text-3xl font-semibold flex flex-col justify-center items-center mt-6 gap-2 z-0">
+        <div className="text-3xl font-semibold flex flex-col justify-center items-center mt-6 gap-2 z-50">
           <p>Prueba y explora nuestro sample pack</p>
 
           <a

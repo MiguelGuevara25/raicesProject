@@ -6,12 +6,12 @@ const Artists = () => {
       style={{ backgroundImage: "url('/images/fondoArtists.png')" }}
       className="relative bg-cover bg-no-repeat bg-center"
     >
-      <div className="flex flex-wrap justify-center items-center gap-y-12 py-20 z-50">
-        <div className="flex items-center gap-8 w-full z-30">
+      <div className="flex flex-wrap justify-center items-center gap-y-12 py-20">
+        <div className="flex items-center gap-8 w-full">
           <Artist client:load artist="kayfex.png" />
 
           <h2 className="basis-2/5 self-stretch flex items-center justify-center">
-            <span className="text-9xl font-bold text-[#45260B] z-30">Descubre</span>
+            <span className="text-9xl font-bold text-[#45260B]">Descubre</span>
           </h2>
 
           <Artist client:load artist="arianGaitan.png" />

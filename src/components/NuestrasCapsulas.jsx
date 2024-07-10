@@ -17,7 +17,7 @@ const NuestrasCapsulas = () => {
 
   return (
     <section>
-      <div className="relative">
+      <div className="relative z-50">
         <h2 className="absolute bottom-40 left-96 text-8xl font-extrabold text-[#45260B] w-48">
           <span className="text-[110px]">Nuestras</span> cápsulas
         </h2>

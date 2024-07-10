@@ -1,9 +1,9 @@
 const RespiroVisual = () => {
   return (
     <section class="bg-[#45260B] h-screen flex flex-col justify-center items-center relative font-bold text-[#FFFAF3] [&>p]:text-[#FFFAF3]/20 text-7xl [&>p]:absolute [&>p]:text-7xl [&>p]:font-extrabold">
-      <div class="max-w-md mb-5">
+      <div class="max-w-md mb-5 relative z-50">
         <img
-          class="photoZamponia"
+          class="photoZamponia relative z-50"
           src="/images/zampoñaFuturista.webp"
           alt="Zampoña Futurista"
         />

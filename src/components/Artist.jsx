@@ -31,7 +31,7 @@ const Artist = ({ artist }) => {
 
   return (
     <>
-      <div className="bg-[#DEC499] flex justify-center items-end rounded-3xl h-32 basis-1/5">
+      <div className="bg-[#DEC499] flex justify-center items-end rounded-3xl h-32 basis-1/5 z-50">
         <img
           className="h-40 hover:scale-125 hover:-translate-y-5 transition-all duration-300 ease-in-out cursor-pointer"
           src={`/images/artists/sliders/${artist}`}

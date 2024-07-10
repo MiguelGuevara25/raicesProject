@@ -4,7 +4,7 @@ import { dataTabs } from "../data/data";
 
 const Tabs = () => {
   return (
-    <div className="h-screen flex justify-center items-center">
+    <div className="h-screen flex justify-center items-center relative z-50">
       <Swiper
         effect={"cards"}
         grabCursor={true}
