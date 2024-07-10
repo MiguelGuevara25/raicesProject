@@ -35,25 +35,46 @@ const Artist = ({ artist }) => {
           }`}
         >
           <div
-            className={`fixed top-0 right-0 w-[90%] h-full bg-white z-50 transition-all duration-500 ease-in-out animate__animated ${
+            className={`fixed top-0 right-0 w-[90%] h-full bg-[#FFFAF3] z-50 transition-all duration-500 ease-in-out animate__animated ${
               isClosing ? "animate__slideOutRight" : "animate__slideInRight"
             }`}
           >
             <div
-              className="absolute top-10 left-0 p-1 text-4xl font-bold text-black bg-[#DEC499] cursor-pointer"
+              className="absolute top-10 left-0 p-1 text-4xl rounded-e-lg text-[#45260B] bg-[#DEC499] cursor-pointer"
               onClick={handleCloseBioArtist}
             >
-              <IoCloseOutline />
+              <IoCloseOutline className="font-extrabold" />
             </div>
 
-            <div className="p-8">
-              <h2 className="text-2xl font-bold mb-4">Biography of {artist}</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus imperdiet, nulla et dictum interdum, nisi lorem
-                egestas odio, vitae scelerisque enim ligula venenatis dolor.
-                Maecenas nisl est, ultrices nec congue eget, auctor vitae massa.
+            <div
+              className="h-64 bg-center bg-cover bg-no-repeat flex justify-center items-center bg-gradient-to-tr from-black to-[#FFFAF3]"
+              style={{ backgroundImage: "url('images/raicesFusion.webp')" }}
+            >
+              <h2 className="text-[#FFFAF3] font-extrabold text-6xl">
+                Arturo Cavero Velásquez
+              </h2>
+            </div>
+
+            <div className="bg-white flex gap-20 justify-center items-center py-14 text-[#45260B]">
+              <div className="bg-[#45260B] rounded-full">
+                <img
+                  className="rounded-full"
+                  width="220"
+                  src="/images/artists/sliders/kayfex.png"
+                  alt=""
+                />
+              </div>
+
+              <p className="text-lg w-1/4">
+                Nacido en Lima el 29 de noviembre de 1940, es reconocido entre
+                sus seguidores como El Zambo Cavero. Este cantor de la música
+                criolla peruana ha conquistado los corazones de muchos con su
+                arte.
               </p>
+            </div>
+
+            <div>
+              
             </div>
           </div>
         </div>
