@@ -2,16 +2,21 @@ import { useState } from "react";
 
 const SamplePack = () => {
   const [isScaled, setIsScaled] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false); // Nuevo estado para controlar la reproducción
 
   const handleSoundCajon = () => {
-    const audio = new Audio("/sounds/cajon.wav");
-    audio.play();
+    if (!isPlaying) { // Verifica si ya se está reproduciendo un sonido
+      const audio = new Audio("/sounds/cajon.wav");
+      audio.play();
 
-    setIsScaled(true);
+      setIsScaled(true);
+      setIsPlaying(true);
 
-    setTimeout(() => {
-      setIsScaled(false);
-    }, 7800);
+      audio.onended = () => {
+        setIsPlaying(false); // Restablece el estado después de que termina el sonido
+        setIsScaled(false);
+      };
+    }
   };
 
   return (
