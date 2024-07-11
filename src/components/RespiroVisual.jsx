@@ -16,10 +16,10 @@ const RespiroVisual = () => {
         </h3>
       </div>
 
-      <p class="float__words__inverse top-56 right-32 transition-all">
+      <p class="float__words__inverse__1 top-56 right-32 transition-all">
         Herencia
       </p>
-      <p class="float__words top-72 left-32 transition-all">Innovación</p>
+      <p class="float__words__1 top-72 left-32 transition-all">Innovación</p>
       <p class="float__words right-16 bottom-48 transition-all">
         Tradicionales
       </p>

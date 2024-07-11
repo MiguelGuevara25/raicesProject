@@ -36,12 +36,22 @@ import "swiper/css/effect-cards";
   }
 
   .float__words {
-    animation: float 12.5s infinite linear;
+    animation: float3 20s infinite linear;
     transition-duration: 300ms;
   }
 
   .float__words__inverse {
-    animation: floatInverse 12.5s infinite linear;
+    animation: float4 20s infinite linear;
+    transition-duration: 300ms;
+  }
+
+  .float__words__1 {
+    animation: float1 20s infinite linear;
+    transition-duration: 300ms;
+  }
+
+  .float__words__inverse__1 {
+    animation: float2 20s infinite linear;
     transition-duration: 300ms;
   }
 
@@ -59,75 +69,87 @@ import "swiper/css/effect-cards";
     transition-timing-function: linear;
   }
 
-  @keyframes float {
+  @keyframes float1 {
     0% {
       transform: translate(0, 0);
     }
-    10% {
-      transform: translate(200px, -100px);
-    }
     20% {
-      transform: translate(400px, 200px);
-    }
-    30% {
-      transform: translate(600px, -300px);
+      transform: translate(300px, 200px);
     }
     40% {
-      transform: translate(800px, 300px);
-    }
-    50% {
-      transform: translate(1000px, -200px);
+      transform: translate(-350px, -300px);
     }
     60% {
-      transform: translate(1200px, 200px);
-    }
-    70% {
-      transform: translate(1400px, -300px);
+      transform: translate(400px, 350px);
     }
     80% {
-      transform: translate(1600px, 300px);
-    }
-    90% {
-      transform: translate(1800px, -200px);
+      transform: translate(-450px, -400px);
     }
     100% {
-      transform: translate(2000px, 200px);
+      transform: translate(500px, 450px);
     }
   }
 
-  @keyframes floatInverse {
+  @keyframes float2 {
     0% {
       transform: translate(0, 0);
     }
-    10% {
-      transform: translate(200px, 100px);
-    }
     20% {
-      transform: translate(400px, -200px);
-    }
-    30% {
-      transform: translate(600px, 200px);
+      transform: translate(-300px, 250px);
     }
     40% {
-      transform: translate(500px, -300px);
-    }
-    50% {
-      transform: translate(1000px, 200px);
+      transform: translate(350px, -300px);
     }
     60% {
-      transform: translate(-200px, -200px);
-    }
-    70% {
-      transform: translate(400px, 300px);
+      transform: translate(-400px, 350px);
     }
     80% {
-      transform: translate(600px, -300px);
-    }
-    90% {
-      transform: translate(800px, 200px);
+      transform: translate(450px, -400px);
     }
     100% {
-      transform: translate(200px, -200px);
+      transform: translate(-500px, 450px);
+    }
+  }
+
+  @keyframes float3 {
+    0% {
+      transform: translate(0, 0);
+    }
+    20% {
+      transform: translate(350px, -250px);
+    }
+    40% {
+      transform: translate(-400px, 300px);
+    }
+    60% {
+      transform: translate(450px, -350px);
+    }
+    80% {
+      transform: translate(-500px, 400px);
+    }
+    100% {
+      transform: translate(550px, -450px);
+    }
+  }
+
+  @keyframes float4 {
+    0% {
+      transform: translate(0, 0);
+    }
+    20% {
+      transform: translate(-350px, 200px);
+    }
+    40% {
+      transform: translate(400px, -250px);
+    }
+    60% {
+      transform: translate(-450px, 300px);
+    }
+    80% {
+      transform: translate(500px, -350px);
+    }
+    100% {
+      transform: translate(-550px, 400px);
     }
   }
 
