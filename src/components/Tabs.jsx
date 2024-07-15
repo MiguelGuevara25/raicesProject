@@ -12,6 +12,7 @@ const Tabs = () => {
         modules={[EffectCards]}
         rewind={true}
         className="mySwiper text-[#FFFAF3]"
+        data-aos="fade-up"
       >
         {dataTabs.map(({ id, bg, img, title, text }) => {
           return (

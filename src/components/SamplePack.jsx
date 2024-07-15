@@ -5,7 +5,8 @@ const SamplePack = () => {
   const [isPlaying, setIsPlaying] = useState(false); // Nuevo estado para controlar la reproducción
 
   const handleSoundCajon = () => {
-    if (!isPlaying) { // Verifica si ya se está reproduciendo un sonido
+    if (!isPlaying) {
+      // Verifica si ya se está reproduciendo un sonido
       const audio = new Audio("/sounds/cajon.wav");
       audio.play();
 
@@ -26,7 +27,11 @@ const SamplePack = () => {
           ¡Conecta con nuestras raíces!
         </h2>
 
-        <div className="relative z-50">
+        <div
+          className="relative z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <img
             width="300"
             src="/images/cajon.webp"

@@ -18,12 +18,18 @@ const NuestrasCapsulas = () => {
   return (
     <section>
       <div className="relative z-50">
-        <h2 className="absolute bottom-40 left-96 text-8xl font-extrabold text-[#45260B] w-48">
+        <h2
+          className="absolute bottom-40 left-96 text-8xl font-extrabold text-[#45260B] w-48"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <span className="text-[110px]">Nuestras</span> cápsulas
         </h2>
         <img src="/images/mapaSin.png" alt="Mapa" />
         <img
           className="absolute bottom-[17%] right-[28%] photoZamponia"
+          data-aos="zoom-out"
+          data-aos-duration="1500"
           src="/images/charango.png"
           onClick={handleModalVideo}
         />

@@ -21,6 +21,8 @@ const Contacto = () => {
 
         <div className="z-50">
           <img
+            data-aos="zoom-in"
+            data-aos-duration="1000"
             className="z-50"
             width="300"
             src="/images/flor.png"
