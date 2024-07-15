@@ -186,4 +186,50 @@ import "swiper/css/effect-cards";
   .no-scroll {
     overflow: hidden;
   }
+
+  .card__artists {
+    animation: sliderArtists 10s infinite ease;
+    z-index: 50;
+  }
+
+  @keyframes sliderArtists {
+    0% {
+      transform: translateX(0);
+    }
+
+    25% {
+      transform: translateX(10%);
+    }
+
+    50% {
+      transform: translateX(-10%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .card__artistsInvert {
+    animation: sliderArtistsInvert 10s infinite ease;
+    z-index: 50;
+  }
+
+  @keyframes sliderArtistsInvert {
+    0% {
+      transform: translateX(0);
+    }
+
+    25% {
+      transform: translateX(-10%);
+    }
+
+    50% {
+      transform: translateX(10%);
+    }
+
+    100% {
+      transform: translateX(0%);
+    }
+  }
 </style>
