@@ -23,8 +23,8 @@ const Tabs = () => {
                 </div>
 
                 <div className="py-6 px-10">
-                  <h3 className="font-bold text-6xl mb-2.5">{title}</h3>
-                  <p className="leading-6 tracking-wide text-xl">{text}</p>
+                  <h3 className="font-bold lg:text-6xl text-4xl mb-2.5">{title}</h3>
+                  <p className="leading-6 tracking-wide lg:text-xl">{text}</p>
                 </div>
               </div>
             </SwiperSlide>

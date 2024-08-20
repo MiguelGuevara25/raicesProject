@@ -155,8 +155,14 @@ import "swiper/css/effect-cards";
   }
 
   .swiper {
-    width: 500px;
+    width: 80%;
     z-index: 20;
+  }
+
+  @media (min-width: 768px) {
+    .swiper {
+      width: 500px;
+    }
   }
 
   .swiper-slide {
@@ -164,25 +170,25 @@ import "swiper/css/effect-cards";
     position: relative;
   }
 
-  .swiper-slide-next {
+  /* .swiper-slide-next {
     transform: translate3d(calc(7.25% - 700px), 0px, -150px) scale(1) !important;
-  }
+  } */
 
-  .swiper-slide-next:hover {
+  /* .swiper-slide-next:hover {
     transform: translate3d(calc(7.25% - 700px), 0px, -150px) scale(1.1) !important;
     transition: transform 0.5s ease-in-out !important;
     z-index: 100 !important;
-  }
+  } */
 
-  .swiper-slide-prev {
+  /* .swiper-slide-prev {
     transform: translate3d(calc(-7.25% - 300px), 0px, -150px) scale(1) !important;
-  }
+  } */
 
-  .swiper-slide-prev:hover {
+  /*.swiper-slide-prev:hover {
     transform: translate3d(calc(-7.25% - 300px), 0px, -150px) scale(1.1) !important;
     transition: transform 0.5s ease-in-out !important;
-    z-index: 100 !important; /* Z-index aumentado cuando se pasa el mouse */
-  }
+    z-index: 100 !important;
+  }*/
 
   .no-scroll {
     overflow: hidden;
