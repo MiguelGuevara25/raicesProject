@@ -1,6 +1,6 @@
 const RespiroVisual = () => {
   return (
-    <section className="bg-[#45260B] h-screen flex flex-col justify-center items-center relative font-bold text-[#FFFAF3] [&>p]:text-[#FFFAF3]/20 md:text-7xl text-5xl [&>p]:absolute [&>p]:text-7xl [&>p]:font-extrabold">
+    <section className="bg-[#45260B] h-screen flex flex-col justify-center items-center relative font-bold text-[#FFFAF3] [&>p]:text-[#FFFAF3]/20 md:text-7xl text-5xl [&>p]:absolute [&>p]:lg:text-7xl [&>p]:font-extrabold">
       <div
         className="md:max-w-md max-w-60 lg:mb-5 mb-10 relative z-50"
         data-aos="zoom-in-up"
