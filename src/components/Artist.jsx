@@ -32,10 +32,10 @@ const Artist = ({ artist, slider }) => {
   return (
     <>
       <div
-        className={`bg-[#DEC499] flex justify-center items-end rounded-3xl h-32 basis-1/5 z-50 ${slider}`}
+        className={`bg-[#DEC499] flex justify-center items-end rounded md:rounded-xl lg:rounded-3xl h-5 md:h-10 lg:h-32 basis-full lg:basis-1/5 z-50 ${slider}`}
       >
         <img
-          className="h-40 hover:scale-125 hover:-translate-y-5 transition-all duration-300 ease-in-out cursor-pointer"
+          className="h-8 md:h-14 lg:h-40 hover:scale-125 hover:-translate-y-1 md:hover:-translate-y-2 lg:hover:-translate-y-5 transition-all duration-300 ease-in-out cursor-pointer"
           src={`/images/artists/sliders/${artist}`}
           alt={`${artist}`}
           onClick={handleBioArtist}

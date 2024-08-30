@@ -135,7 +135,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
           
           A los 19 años, en medio de la pandemia, lanzó su primer álbum "ISQUN", que significa "el reflejo del alma" en quechua y es el número nueve. Este álbum incluye canciones inspiradas en mujeres que han dejad  o huella en la historia de Perú con sus decisiones y logros. Entre las canciones se encuentran "Francisca Pizarro" y "María Parado de Bellido", dedicadas a mujeres destacadas, junto con una recopilación de sus primeros sencillos.
 
-          Renata Flores ha sido elogiada internacionalmente por su innovador enfoque musical. El New York Times la ha nombrado "la reina peruana del rap en quechua", destacando su combinación de tradición y transgresión. Asimismo, en una edición reciente de la prestigiosa revista The Economist, la describen como "una cantante peruana que celebra su herencia quechua" y mencionan sus "pegajosas letras en el idioma del Imperio Inca".`,
+          Renata Flores ha sido elogiada internacionalmente por su innovador enfoque musical. El New York Times la ha nombrado "la reina peruana del rap en quechua", destacando su combinación de tradición y transgresión.`,
         };
 
       case "susanaBaca.png":
@@ -149,9 +149,7 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
 
           Estudió educación en la Universidad Enrique Guzmán y Valle, graduándose en 1968 y obteniendo un Doctorado Honoris Causa en 2009. En 1995, su canción "María Landó" en el álbum "El alma del Perú Negro" la consolidó como una referente de la música afroperuana.
 
-          Ha compartido escenario con artistas como Lila Downs, Mercedes Sosa y Calle 13. Ganó su primer Latin Grammy en 2002 por "Lamento Negro", y recibió otros dos en 2011 y 2020. Fue distinguida con la Orden de las Artes y las Letras de Francia, la Orden al Mérito del Perú y la medalla Juan Pablo Vizcardo y Guzmán del Congreso peruano.
-          
-          En 2011, asumió como Ministra de Cultura del Perú y fue elegida para presidir la Comisión Interamericana de Cultura de la OEA. En 2020, ganó su tercer Latin Grammy por "A capella", grabado durante la pandemia.`,
+          Ha compartido escenario con artistas como Lila Downs, Mercedes Sosa y Calle 13. Ganó su primer Latin Grammy en 2002 por "Lamento Negro", y recibió otros dos en 2011 y 2020. Fue distinguida con la Orden de las Artes y las Letras de Francia, la Orden al Mérito del Perú y la medalla Juan Pablo Vizcardo y Guzmán del Congreso peruano.`,
         };
 
       case "tonySuccar.png":
@@ -204,12 +202,12 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
           className="h-64 bg-center bg-cover bg-no-repeat flex justify-center items-center bg-gradient-to-tr from-black to-[#FFFAF3]"
           style={{ backgroundImage: "url('images/raicesFusion.webp')" }}
         >
-          <h2 className="text-[#FFFAF3] font-extrabold text-6xl">
+          <h2 className="text-[#FFFAF3] font-extrabold text-center text-4xl md:text-6xl">
             {infoArtist(artist).name}
           </h2>
         </div>
 
-        <div className="bg-white flex gap-20 justify-center items-center py-14 text-[#45260B]">
+        <div className="bg-white flex lg:flex-row flex-col gap-10 lg:gap-20 justify-center items-center py-14 text-[#45260B]">
           <div className="bg-[#45260B] flex justify-center items-end rounded-full size-60 overflow-hidden">
             <img
               className="h-60 object-contain object-bottom"
@@ -218,21 +216,21 @@ const ModalBiography = ({ isClosing, handleCloseBioArtist, artist }) => {
             />
           </div>
 
-          <p className="text-lg w-[32%]">{infoArtist(artist).bio}</p>
+          <p className="text-lg w-4/5 lg:w-1/3">{infoArtist(artist).bio}</p>
         </div>
 
-        <div className="flex justify-center items-center text-lg">
-          <div className="basis-1/2">
+        <div className="flex lg:flex-row flex-col justify-center items-center lg:text-sm 2xl:text-lg">
+          <div className="w-full basis-1/2">
             <img className="w-full" src={infoArtist(artist).img2} />
           </div>
 
-          <div className="basis-1/2 text-end px-20">
+          <div className="basis-1/2 lg:text-end p-10 lg:py-0 lg:px-20">
             <p style={{ whiteSpace: "pre-line" }}>{infoArtist(artist).bio2}</p>
           </div>
         </div>
 
-        <div className="bg-white text-[#45260B] flex justify-center items-center gap-10 text-2xl py-5">
-          <p className="font-bold">Síguenos en nuestras redes sociales</p>
+        <div className="bg-white text-[#45260B] flex flex-col lg:flex-row justify-center items-center gap-2 lg:gap-10 text-xl lg:text-2xl py-5">
+          <p className="font-bold text-center">Síguenos en nuestras redes sociales</p>
 
           <div className="flex gap-4 [&>div]:size-9 text-[#FFFAF3] [&>div]:bg-[#45260B] [&>div]:rounded-full [&>div]:flex [&>div]:justify-center [&>div]:items-center [&>div]:hover:cursor-pointer">
             <div>

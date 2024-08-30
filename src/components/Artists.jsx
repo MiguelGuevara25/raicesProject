@@ -11,7 +11,7 @@ const Artists = () => {
           <Artist client:load artist="kayfex.png" slider="card__artists" />
 
           <h2 className="basis-2/5 self-stretch flex items-center justify-center">
-            <span className="text-9xl font-bold text-[#45260B] card__artists">
+            <span className="text-3xl md:text-5xl lg:text-9xl font-bold text-[#45260B] card__artists">
               Descubre
             </span>
           </h2>
@@ -30,7 +30,7 @@ const Artists = () => {
           <Artist artist="daskeGaitan.png" slider="card__artistsInvert" />
 
           <h2 className="basis-1/5 self-stretch flex items-center justify-center">
-            <span className="text-9xl font-bold text-[#45260B] card__artistsInvert">
+            <span className="text-3xl md:text-5xl lg:text-9xl font-bold text-[#45260B] card__artistsInvert">
               a
             </span>
           </h2>
@@ -42,7 +42,7 @@ const Artists = () => {
           <Artist artist="milenaWarthon.png" slider="card__artists" />
 
           <h2 className="basis-1/5 self-stretch flex items-center justify-center">
-            <span className="text-9xl font-bold text-[#45260B] card__artists">
+            <span className="text-3xl md:text-5xl lg:text-9xl font-bold text-[#45260B] card__artists">
               más
             </span>
           </h2>
@@ -57,7 +57,7 @@ const Artists = () => {
           <Artist artist="zamboCavero.png" slider="card__artistsInvert" />
 
           <h2 className="basis-2/5 self-stretch flex items-center justify-center">
-            <span className="text-9xl font-bold text-[#45260B] card__artistsInvert">
+            <span className="text-3xl md:text-5xl lg:text-9xl font-bold text-[#45260B] card__artistsInvert">
               artistas...
             </span>
           </h2>
