@@ -19,7 +19,7 @@ const NuestrasCapsulas = () => {
     <section>
       <div className="relative z-50">
         <h2
-          className="absolute bottom-[15%] left-[20%] md:text-4xl lg:text-8xl xl:text-7xl font-extrabold text-[#45260B] w-20 md:w-48"
+          className="absolute bottom-[15%] left-[20%] md:text-4xl lg:text-8xl xl:text-7xl 2xl:text-8xl font-extrabold text-[#45260B] w-20 md:w-48"
           data-aos="fade-right"
           data-aos-duration="1500"
         >
