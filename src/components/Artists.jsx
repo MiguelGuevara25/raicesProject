@@ -4,7 +4,7 @@ const Artists = () => {
   return (
     <section
       style={{ backgroundImage: "url('/images/fondoArtists.png')" }}
-      className="relative bg-cover bg-no-repeat bg-center"
+      className="relative bg-cover bg-no-repeat bg-center overflow-hidden"
     >
       <div className="flex flex-wrap justify-center items-center gap-y-12 py-20">
         <div className="flex items-center gap-8 w-full">
